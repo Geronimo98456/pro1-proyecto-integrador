@@ -98,8 +98,13 @@ font-family: 'Roboto Mono'
     text-decoration: none;
 }
 
-
-
- 
-
-
+/*responsive --> hicimos mobile last/*
+/* detail serie y detail movie no son responsive*/
+@media(max-width: 420px){
+    .section-detalle{
+        flex-wrap: wrap ;
+    }
+    .section-genero{
+        margin: 20px;
+    }
+}
