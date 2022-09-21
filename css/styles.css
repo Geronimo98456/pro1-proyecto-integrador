@@ -58,6 +58,7 @@ body{
 }
 .foto{
     max-width: 225px;
+    max-height: 320px;
 }
 .cartelera{
     display: flex;
