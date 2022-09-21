@@ -1,16 +1,102 @@
-.header{
-background-color: white;
-margin: 10px;
-height:90px;
-border-radius: 5px;
+/*Se repite en todas las pagina*/
+/*css de header*/
+header{
+background-color: rgb(11, 94, 113);
 }
-.nav{
-    background-color: white;
-    margin: 10px;
-    height: 35px;
-    border-radius: 5px;
+.logo{
+    max-width: 170px;
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    list-style: none;
+    
+}
+.a-header{
+    color: antiquewhite;
+    text-transform: uppercase ;
+    text-decoration: none;
+    font-family: 'Bungee Spice', cursive;
+    font-size: 20px;
+}
+nav{
+    display: flex;
+}
+.rutas{
+    width: 200pc;
+    padding-top: 40px;
+}
+/*css de footer*/
+footer{
+    background-color: rgb(11, 94, 113);
     }
+.texto-footer{
+    color: antiquewhite;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Bungee Spice', cursive;
+}
+/*css de index*/
+body{
+    background-color: black;
+}
+.h2-titulos{
+    color: antiquewhite;
+    text-transform: uppercase;
+    font-family: 'Roboto Mono'
+}
+.titulos-peliculas{
+    color: antiquewhite;
+    text-decoration: none;
+    font-family: 'Roboto Mono'
+}
+.estreno{
+    color: antiquewhite;
+    font-family: 'Roboto Mono'
+}
+.foto{
+    max-width: 225px;
+}
+.cartelera{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 
+/*Detalle de pelicula/serie*/
+.titulo-detalle{
+    color: antiquewhite;
+    text-transform: uppercase;
+    font-family: 'Roboto Mono'
+}
+.texto-detail{
+color: antiquewhite;
+text-decoration: none;
+font-family: 'Roboto Mono'
+}
+.foto-detalle{
+    max-width: 400px;
+
+}
+.section-detalle{
+    display: flex;
+ 
+}
+/*pagdegenero*/
+
+.section-genero{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: antiquewhite;
+}
+.titulo-genero{
+    color: antiquewhite;
+    font-family: 'Roboto Mono';
+    text-decoration: none;
+}
 
 
 
